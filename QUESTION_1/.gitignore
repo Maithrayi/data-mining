@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# DuckDB
+*.duckdb
+*.duckdb.wal
+
+# PostgreSQL / database dumps
+*.dump
+*.sql.gz
+
+# Raw data - do not upload
+sales/
+raw/
+*.csv
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
